@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import Colors from '../../constants/colors';
 
-const GuesslogItem = ({ roundNumber, guess }) => {
+const GuessLogItem = ({ roundNumber, guess }) => {
   return (
     <View style={styles.listItem}>
       <Text style={styles.itemText}>#{roundNumber}</Text>
@@ -11,7 +11,7 @@ const GuesslogItem = ({ roundNumber, guess }) => {
   );
 };
 
-export default GuesslogItem;
+export default GuessLogItem;
 
 const styles = StyleSheet.create({
   listItem: {
